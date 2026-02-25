@@ -1,6 +1,6 @@
 # DIEGO 500 (WIP)
 
-Amiga 500 sidecar expansion backplane
+Turn your A500 into an A2000 with this sidecar backplane
 
 ![PCB](/IMAGES/5-SLOT-3D.png)
 
@@ -131,6 +131,7 @@ Testing by GadgetUK, Sparx, Cathers and Andi@HBR
 
 Why is it called Diego 500?  Well... this project started solely as a Zorro 2 expansion and to implement that I first had
 to understand how the Zorro bus worked.  You might say I had to unmask Zorro.  The character of Zorro unmasked is called Don Diego so Diego 500. 
+
 
 
 
