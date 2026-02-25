@@ -7,28 +7,34 @@ Amiga 500 sidecar expansion backplane
 
 ## What's this?  
 
-DIEGO 500 gives you an A2000 compatible COPROCESSOR slot along with a full set of 5 ZORRO2 slots all made
-possible by the onboard Bluster IC.  Bluster is a remake of the classic A2000 Buster by LIV2 although it
-is a custom version for DIEGO to handle inverted clocks and provide some further functions.  
+DIEGO 500 gives you an A2000 compatible CO-PROCESSOR slot along with a full set of 5 ZORRO2 slots all madepossible by the onboard Bluster IC.  Bluster is a remake of the classic A2000 Buster by LIV2 although it is a custom version for DIEGO to handle inverted clocks and provide some further functions.  
 
-DIEGO 500 has been tested extensively with various CPU and Zorro cards, a list of tested cards is provided below.  
-If you have anything to add to this list, please get in touch.  
+DIEGO 500 has been tested extensively with various CPU and Zorro cards, a list of tested cards is provided below.  If you have anything to add to this list, please get in touch.  
 
 DIEGO 500 is also intended to power your A500 via the passthrough 4 pin connector adjacent to the main 24 pin ATX connector.  
 
 
 ## Ordering
 
-There are currently 2 versions of DIEGO 500.  A full 5 slot version and a smaller 3 slot version.  Gerber, BOM and CPL files are provided in the JLCPCB folder.  
+There are currently 2 versions of DIEGO 500, a full 5 slot version and a smaller 3 slot version.  
 
-All passives on each version are located on the bottom side.  All logic and electrolytic caps are located on the top side.  Both versions of DIEGO 500 are 4 layer boards.  HASL finish is fine for this project, inner layers can be left 0.5oz.  All signals are routed on the top and bottom layers but there are some power traces on each internal layer along with solid grounds.  
+Gerber, BOM and CPL files are provided for both in the JLCPCB folder.  
 
-Due to the amount of passives, I would recommend having your PCB manufacturer fit the bottom side, then you as builder complete the top side.  While all components are available at JLC several top side parts are getting expensive!  
+All passives on each version are located on the bottom side.  All logic and electrolytic caps are located on the top side.  
+
+Both versions of DIEGO 500 are 4 layer boards.  HASL finish is fine for this project, inner layers can be left 0.5oz.  
+
+All signals are routed on the top and bottom layers but there are some power traces on each internal layer along with solid grounds.  
+
+Due to the amount of passives I recommend having your PCB manufacturer fit the bottom side, then you as builder complete the top side.  
+
+While all components are available at JLC several top side parts are getting expensive!  
+
 
 
 ## Assembly
 
-Assuming you've got your boards made with the bottom side completed you may fit out the top side to suit yourself.  I recommend fitting and programming the CPLD first and finish all SMD work before doing the slots as they'll just get in the way!  
+Assuming you got your boards made with the bottom side completed you may fit out the top side to suit yourself.  I recommend fitting and programming the CPLD first and finish all SMD work before doing the slots as they'll just get in the way!  
 
 NOTE: U11 is only required if you're using something in the COPROCESSOR slot that needs a 28mhz clock.  There doesn't seem to be that many (if any) cards that do require this so you may leave this off if you prefer. 
 
@@ -38,7 +44,8 @@ For the 86pin slot to the A500 you will need to bend the pins in to meet the pad
 
 For programming the CPLD, the required JED file is available in the CPLD folder or you may get it from LIV2s GitHub.  I use a Raspberry PI to programme CPLDs as per LIV2s guide but use whatever method you are comfortable with.  Just remember if using a PI and if powering 3.3v from the PI, disconnect all other power supplies from DIEGO 500!
 
-Speaking of power, DIEGO 500 is intended to also power your Amiga but the voltage rails are not connected at the side car slot.  Rather you must build and connect the passthrough cable to the 4 pin connector beside the main 24 pin ATX connector.  Voltage rails are labelled at this passthrough.  Pay attention to your pinout, don't blame me if you blow up your A500.
+Speaking of power, DIEGO 500 is intended to also power your Amiga but the voltage rails are not connected at the side car slot. Rather you must build and connect the passthrough cable to the 4 pin connector beside the main 24 pin ATX connector.  Voltage rails are labelled at this passthrough.  Pay attention to your pinout, don't blame me if you blow up your A500.
+
 
 
 ## Using your DIEGO 500
@@ -52,9 +59,11 @@ For the most part DIEGO 500 is simply plug and play but there are a few things t
 - If you are using an A500 type accelerator in the COPROCESSOR slot such as TF536 or a PISTORM (including PISTORM 2000), you MUST open the A500 and remove the internal CPU.  Even if you manually assert _BOSS, the E clocks will clash and it won't work.  There is NO fix for this!  A2000 accelerators work as they monitor E and sync to it or generate it as necessary.  
 
 
+
 ## Testing and Results
 
-With thanks to GADGETUK, SPARX, CATHERS and ANDI@HBR we've been able to test and confirm that most boards work fine in DIEGO 500.  The below table lists those boards tested and confirmed as working or not.
+With thanks to GADGETUK, SPARX, CATHERS and ANDI@HBR we've been able to test and confirm that most boards 
+work fine in DIEGO 500.  The below table lists those boards tested and confirmed as working or not.
 
 
 | Card Type | Name | Status |
@@ -82,18 +91,22 @@ With thanks to GADGETUK, SPARX, CATHERS and ANDI@HBR we've been able to test and
 If you can add to this table please get in touch!
 
 
+
 ## Case
 
 Still a WIP and I'm very much open to suggestions!
+
 
 
 ## Future Plans
 
 Several people have asked about adding ISA slots, a video slot or making this remote with a ribbon cable to the A500.  
 
-ISA slots - DIEGO 500 has been designed so that you could in theory add ISA slots on a separate board, the Zorro slots in relation to the edge of the PCB are positioned to allow this.  I have not yet designed an ISA board but it's on the list.
+ISA slots - DIEGO 500 has been designed so that you could in theory add ISA slots on a separate board, the Zorro slots 
+in relation to the edge of the PCB are positioned to allow this.  I have not yet designed an ISA board but it's on the list.
 Video slot - There are no plans to add a video slot.  Very few of the required signals are on the A500s side car so it would need a multicore ribbon from DENISE.  
 Ribbon Cable - If you want to try a ribbon cable you can simply solder one onto the edge connector at the side of DIEGO but I don't expect this to work without further buffering! (like in the bodega bay).
+
 
 
 ## License
@@ -104,15 +117,21 @@ It is however released under a CERN Open Hardware Licence v2 for the community t
 While I cannot put any direct stipulations into this I would ask that it should only be built and sold at cost plus time and if you plan on forking or using this as the basis for any other works, all attributions as presented on DIEGO 500 should be maintained and carried through.
 
 
+
 ## Credits
 
 PCB by CRG(Glen)
+
 Bluster by LIV2
+
 Artwork by Brick Studios
+
 Testing by GadgetUK, Sparx, Cathers and Andi@HBR
+
 
 Why is it called Diego 500?  Well... this project started solely as a Zorro 2 expansion and to implement that I first had
 to understand how the Zorro bus worked.  You might say I had to unmask Zorro.  The character of Zorro unmasked is called Don Diego so Diego 500. 
+
 
 
 
