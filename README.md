@@ -111,11 +111,11 @@ Ribbon Cable - If you want to try a ribbon cable you can simply solder one onto 
 
 ## License
 
-This project represents countless hours of work by not just me but LIV2 and everyone involved in testing.  
-It is however released under a CERN Open Hardware Licence v2 for the community to enjoy.  
-
-While I cannot put any direct stipulations into this I would ask that it should only be built and sold at cost plus time and if you plan on forking or using this as the basis for any other works, all attributions as presented on DIEGO 500 should be maintained and carried through.
-
+This project is licensed under CC BY-NC-SA 4.0. To support the community while preventing unauthorized commercial exploitation, the following clarifications apply to the "Non-Commercial" restriction:
+Community Distribution (At-Cost): You are expressly permitted to manufacture and distribute physical units, parts, or kits of the Diego 500 project to others within the community, provided that the total price charged does not exceed the actual cost of raw materials, manufacturing (e.g., third-party PCB manufacturing and PCBA services), and shipping.
+Prohibited Commercial Activity: Any sale, lease, or distribution of this project for profit, "markup," or as part of a commercial product/service is strictly prohibited without prior written consent from the author [CRG(Glen) / CRG YouTube].
+Derivative Works: Any modifications or "remixes" of the Diego 500 must be shared under these same terms (ShareAlike) and all attributions as presented on the Diego 500 project must be maintained and carried through.
+Permission Requests: For commercial licensing or bulk production inquiries, please contact: [casualretrogamer@outlook.com].
 
 
 ## Credits
@@ -131,6 +131,7 @@ Testing by GadgetUK, Sparx, Cathers and Andi@HBR
 
 Why is it called Diego 500?  Well... this project started solely as a Zorro 2 expansion and to implement that I first had
 to understand how the Zorro bus worked.  You might say I had to unmask Zorro.  The character of Zorro unmasked is called Don Diego so Diego 500. 
+
 
 
 
