@@ -119,8 +119,6 @@ This project is licensed under CC BY-NC-SA 4.0. To support the community while p
 
 - Derivative Works: Any modifications or "remixes" of the Diego 500 must be shared under these same terms (ShareAlike) and all attributions as presented on the Diego 500 project must be maintained and carried through.
 
-- Permission Requests: For commercial licensing or bulk production inquiries, please contact: [casualretrogamer@outlook.com].
-
 
 ## Credits
 
@@ -135,6 +133,7 @@ Testing by GadgetUK, Sparx, Cathers and Andi@HBR
 
 Why is it called Diego 500?  Well... this project started solely as a Zorro 2 expansion and to implement that I first had
 to understand how the Zorro bus worked.  You might say I had to unmask Zorro.  The character of Zorro unmasked is called Don Diego so Diego 500. 
+
 
 
 
