@@ -117,7 +117,6 @@ It is however released under a CERN Open Hardware Licence v2 for the community t
 While I cannot put any direct stipulations into this I would ask that it should only be built and sold at cost plus time and if you plan on forking or using this as the basis for any other works, all attributions as presented on DIEGO 500 should be maintained and carried through.
 
 
-
 ## Credits
 
 PCB by CRG(Glen)
@@ -131,6 +130,10 @@ Testing by GadgetUK, Sparx, Cathers and Andi@HBR
 
 Why is it called Diego 500?  Well... this project started solely as a Zorro 2 expansion and to implement that I first had
 to understand how the Zorro bus worked.  You might say I had to unmask Zorro.  The character of Zorro unmasked is called Don Diego so Diego 500. 
+
+
+
+
 
 
 
