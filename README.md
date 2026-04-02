@@ -98,7 +98,7 @@ Still a WIP and I'm very much open to suggestions!
 
 
 
-## Future Plans
+## FAQ
 
 Several people have asked about adding ISA slots, a video slot or making this remote with a ribbon cable to the A500.  
 
