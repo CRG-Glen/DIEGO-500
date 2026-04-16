@@ -26,7 +26,7 @@ Both versions of DIEGO 500 are 4 layer boards.  HASL finish is fine for this pro
 
 All signals are routed on the top and bottom layers but there are some power traces on each internal layer along with solid grounds.  
 
-Due to the amount of passives I recommend having your PCB manufacturer fit the bottom side, then you as builder complete the top side.  
+Due to the amount of passives I recommend having your PCB manufacturer fit the bottom side, you then as builder complete the top side.  
 
 While all components are available at JLC several top side parts are getting expensive!  
 
@@ -36,7 +36,7 @@ While all components are available at JLC several top side parts are getting exp
 
 Assuming you got your boards made with the bottom side completed you may fit out the top side to suit yourself.  I recommend fitting and programming the CPLD first and finish all SMD work before doing the slots as they'll just get in the way!  
 
-NOTE: U11 is only required if you're using something in the COPROCESSOR slot that needs a 28mhz clock.  There doesn't seem to be that many (if any) cards that do require this so you may leave this off if you prefer. 
+NOTE: U11 is only required if you're using something in the COPROCESSOR slot that needs a 28mhz clock.  There doesn't seem to be that many (if any) cards that do require this so you may leave this off if you prefer. (this has not been tested as I don't have anything that needs this clock)
 
 FURTHER NOTE: You MUST use LS and ALS logic as per the BOM.  DIEGO 500 was originally built with HCT logic but this caused issues with several boards.  
 
@@ -54,7 +54,7 @@ For the most part DIEGO 500 is simply plug and play but there are a few things t
 - Firstly there is a single jumper to configure.  At the top of the board beside the COPROCESSOR slot you need to select which 7mhz clock to use.  If you are using a Rev3 or 5 A500 you must select CPLD clock.  If you are using a Rev6 A500 you can use either but if using A500 clock you need to close JP6 on the A500s motherboard.  If you are using an A500+ you can pick either.  The CPLD clock is derived from _CCK XNOR _CCQK within the CPLD.    
 - There is one more pin header adjacent to the above labelled CFGIN.  If you have any expansions in your A500 on the autoconfig chain you MUST connect said expansions config out to this config in.  If you don't you'll most likely get a yellow screen or just no zorro cards detected!
 - Insert all cards as if this was a real A2000 i.e. the front of DIEGO is the front of an A2000.  Most modern Zorro expansions (especially half length cards) will have an arrow pointing to front or back.  Pay attention to this! If you plug something in wrong expect a dead card and possibly dead Amiga! 
-- Zorro 2 cards will autoconfigure themselves just like they would in any Amiga.  To confirm this hold both mouse buttons on start up to access the early start-up menu and select "expansion board diagnostic".  
+- Zorro 2 cards will autoconfigure themselves just like they would in any Amiga.  To confirm this hold both mouse buttons on start up to access the early start-up menu and select "expansion board diagnostic" (only available to kickstart 2.04 and up)
 - If you're using a true A2000 CPU card in the COPROCESSOR slot (like the N2630) simply insert the card and Bluster will tristate the internal A500 CPU. (this is achieved by Bluster monitoring _BOSS and when asserted, Bluster asserts _BR to the internal CPU)  
 - If you are using an A500 type accelerator in the COPROCESSOR slot such as TF536 or a PISTORM (including PISTORM 2000), you MUST open the A500 and remove the internal CPU.  Even if you manually assert _BOSS, the E clocks will clash and it won't work.  There is NO fix for this!  A2000 accelerators work as they monitor E and sync to it or generate it as necessary.  
 
@@ -103,9 +103,9 @@ Still a WIP and I'm very much open to suggestions!
 Several people have asked about adding ISA slots, a video slot or making this remote with a ribbon cable to the A500.  
 
 ISA slots - DIEGO 500 has been designed so that you could in theory add ISA slots on a separate board, the Zorro slots 
-in relation to the edge of the PCB are positioned to allow this.  I have not yet designed an ISA board but it's on the list.
+in relation to the edge of the PCB are positioned to allow this.  I haven't designed an ISA slot extension as I don't have a bridge board to test it with.  
 Video slot - There are no plans to add a video slot.  Very few of the required signals are on the A500s side car so it would need a multicore ribbon from DENISE.  
-Ribbon Cable - If you want to try a ribbon cable you can simply solder one onto the edge connector at the side of DIEGO but I don't expect this to work without further buffering! (like in the bodega bay).
+Ribbon Cable for remote use - If you want to try a ribbon cable to have DIEGO remote from your 500 you can simply solder one onto the edge connector but I don't expect this to work without further buffering! (like in the bodega bay).
 
 
 
@@ -115,6 +115,8 @@ This project represents countless hours of work by not just me but LIV2 and ever
 It is however released under a CERN Open Hardware Licence v2 for the community to enjoy.  
 
 While I cannot put any direct stipulations into this I would ask that it should only be built and sold at cost plus time and if you plan on forking or using this as the basis for any other works, all attributions as presented on DIEGO 500 should be maintained and carried through.
+
+If you are doing a build of these please consider a £1 donation per board to my kofi - https://ko-fi.com/crg_glen.  I'm at least £500 into this project so any support to recoup this is appreicated.  
 
 
 ## Credits
@@ -130,6 +132,7 @@ Testing by GadgetUK, Sparx, Cathers and Andi@HBR
 
 Why is it called Diego 500?  Well... this project started solely as a Zorro 2 expansion and to implement that I first had
 to understand how the Zorro bus worked.  You might say I had to unmask Zorro.  The character of Zorro unmasked is called Don Diego so Diego 500. 
+
 
 
 
