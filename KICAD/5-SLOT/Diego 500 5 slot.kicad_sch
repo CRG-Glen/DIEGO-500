@@ -48453,7 +48453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.9"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 707.39 318.77 0)
 			(effects
 				(font
@@ -50340,7 +50340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.9"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 681.99 303.53 0)
 			(effects
 				(font
@@ -53663,7 +53663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.9"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 712.47 318.77 0)
 			(effects
 				(font
@@ -54223,7 +54223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.9"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 731.52 331.47 0)
 			(effects
 				(font
@@ -55911,7 +55911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.9"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 725.17 325.12 0)
 			(effects
 				(font
@@ -62925,7 +62925,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "1k"
 			(at 736.346 308.102 90)
 			(effects
 				(font
@@ -64737,7 +64737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.9"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 718.82 318.77 0)
 			(effects
 				(font
