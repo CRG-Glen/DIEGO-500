@@ -1,4 +1,4 @@
-# DIEGO 500 (WIP)
+# DIEGO 500 REV1.1
 
 Turn your A500 into an A2000 with this sidecar backplane
 
