@@ -7,7 +7,7 @@ Turn your A500 into an A2000 with this sidecar backplane
 
 ## What's this?  
 
-DIEGO 500 gives you an A2000 compatible CO-PROCESSOR slot along with a full set of 5 ZORRO2 slots all madepossible by the onboard Bluster IC.  Bluster is a remake of the classic A2000 Buster by LIV2 although it is a custom version for DIEGO to handle inverted clocks and provide some further functions.  
+DIEGO 500 gives you an A2000 compatible CO-PROCESSOR slot along with a full set of 5 ZORRO2 slots all made possible by the onboard Bluster IC.  Bluster is a remake of the classic A2000 Buster by LIV2 although it is a custom version for DIEGO to handle inverted clocks and provide some further functions.  
 
 DIEGO 500 has been tested extensively with various CPU and Zorro cards, a list of tested cards is provided below.  If you have anything to add to this list, please get in touch.  
 
