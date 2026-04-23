@@ -16,7 +16,7 @@ DIEGO 500 is also intended to power your A500 via the passthrough 4 pin connecto
 
 ## Ordering
 
-There are currently 2 versions of DIEGO 500, a full 5 slot version and a smaller 3 slot version.  
+There are currently 2 versions of DIEGO 500, a full 5 slot version and a smaller 3 slot version.  Please note the 3 slot version has note been tested but I see no reason why it shouldn't work.  
 
 Gerber, BOM and CPL files are provided for both in the JLCPCB folder.  
 
