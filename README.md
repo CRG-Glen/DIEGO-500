@@ -111,15 +111,20 @@ Ribbon Cable for remote use - If you want to try a ribbon cable to have DIEGO re
 
 ## License
 
-This project represents countless hours of work by not just me but LIV2 and everyone involved in testing.  
-It is however released under a CERN Open Hardware Licence v2 for the community to enjoy.  
+This project represents countless hours of work by not just me but LIV2 and everyone involved in testing.  It is however released under a CERN Open Hardware Licence v2 for the community to enjoy.  
 
-While I cannot put any direct stipulations into this I would ask that it should only be built and sold at cost plus time and if you plan on forking or using this as the basis for any other works, all attributions as presented on DIEGO 500 should be maintained and carried through.
+While I cannot put any direct stipulations into this I would ask that it should only be built and sold at cost plus time.  
+
+If you plan on forking or using this as the basis for any other works you must comply with the following as per the terms of the license attributed to this project.
+1. All attributions and credits as presented within this github and on the DIEGO 500 PCB must be maintained and carried through.
+2. Any derivative of this project must be also be released open source.
 
 If you are doing a build of these please consider a £1 donation per board to my kofi - https://ko-fi.com/crg_glen.  I'm at least £500 into this project so any support to recoup this is appreicated.  
 
 
 ## Credits
+
+Based on A2000 rev6 schematics by Dave Haynie and EATX2000 by Jasonsbeer
 
 PCB by CRG(Glen)
 
@@ -128,6 +133,11 @@ Bluster by LIV2
 Artwork by Brick Studios
 
 Testing by GadgetUK, Sparx, Cathers and Andi@HBR
+
+Thanks to Mikerochip for inspiration for the PSU switch, Neil from Retro4U for loaning his GVP for testing and Kazanoz for helping with the BOM
+
+Special thanks to GadgetUK for hosting the test room on his discord and LIV2 for his work modifying Bluster
+
 
 
 Why is it called Diego 500?  Well... this project started solely as a Zorro 2 expansion and to implement that I first had
