@@ -7,7 +7,7 @@ Turn your A500 into an A2000 with this sidecar backplane
 
 ## What's this?  
 
-DIEGO 500 gives you an A2000 compatible CO-PROCESSOR slot along with a full set of 5 ZORRO2 slots all made possible by the onboard Bluster IC.  Bluster is a remake of the classic A2000 Buster by LIV2 although it is a custom version for DIEGO to handle inverted clocks and provide some further functions.  
+DIEGO 500 gives you an A2000 compatible CO-PROCESSOR slot along with a full set of 5 ZORRO2 slots all made possible by the onboard Bluster IC.  Bluster is a remake of the classic A2000 Buster chip by LIV2 although it is a custom version for DIEGO to handle inverted clocks and provide some further functions.  
 
 DIEGO 500 has been tested extensively with various CPU and Zorro cards, a list of tested cards is provided below.  If you have anything to add to this list, please get in touch.  
 
@@ -51,7 +51,7 @@ Speaking of power, DIEGO 500 is intended to also power your Amiga but the voltag
 ## Using your DIEGO 500
 
 For the most part DIEGO 500 is simply plug and play but there are a few things to keep in mind.
-- Firstly there is a single jumper to configure.  At the top of the board beside the COPROCESSOR slot you need to select which 7mhz clock to use.  If you are using a Rev3 or 5 A500 you must select CPLD clock.  If you are using a Rev6 A500 you can use either but if using A500 clock you need to close JP6 on the A500s motherboard.  If you are using an A500+ you can pick either.  The CPLD clock is derived from _CCK XNOR _CCQK within the CPLD.    
+- Firstly there is a single jumper to configure.  At the top of the board beside the COPROCESSOR slot you need to select which 7mhz clock to use.  If you're using a Rev3 or 5 A500 you must select CPLD clock.  If you're using a Rev6 A500 you can use either but if using A500 clock you need to close JP6 on the A500s motherboard.  If you are using an A500+ you can pick either.  The CPLD clock is derived from _CCK XNOR _CCQK within the CPLD.    
 - There is one more pin header adjacent to the above labelled CFGIN.  If you have any expansions in your A500 on the autoconfig chain you MUST connect said expansions config out to this config in.  If you don't you'll most likely get a yellow screen or just no zorro cards detected!
 - Insert all cards as if this was a real A2000 i.e. the front of DIEGO is the front of an A2000.  Most modern Zorro expansions (especially half length cards) will have an arrow pointing to front or back.  Pay attention to this! If you plug something in wrong expect a dead card and possibly dead Amiga! 
 - Zorro 2 cards will autoconfigure themselves just like they would in any Amiga.  To confirm this hold both mouse buttons on start up to access the early start-up menu and select "expansion board diagnostic" (only available to kickstart 2.04 and up)
@@ -94,7 +94,7 @@ If you can add to this table please get in touch!
 
 ## Case
 
-Still a WIP and I'm very much open to suggestions!
+At present there is no full case but there is a base that will hold either the 3 or 5 slot version of Diego level with the side car slot of your A500.  I'm not great at designing these things so if you want to help please get in touch.  STL files are in the BASE folder.  
 
 
 
