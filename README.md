@@ -80,7 +80,13 @@ work fine in DIEGO.  The below table lists those boards tested and confirmed as 
 | RAM |	Amigakit ZORRAM | Working |
 | RAM |	Gottagofastram 2000 | Working |
 | Sound | Prelude | Working |
+| Sound | Toccata | Working |
+| Sound | AD516 audio card | Working |
 | RTG |	GBAPII | Working |
+| RTG |	Merlin | Working |
+| Networking |	Hydranet | Working |
+| IO | BSC Multiface 3 | Working |
+| IO | Thylacine USB (old longer model) | Working |
 | Multi-feature | LAN-IDE-Clock | Working/Working/Not tested |
 | CPU |	A2630 | Working |
 | CPU |	N2630 | Working |
@@ -89,6 +95,8 @@ work fine in DIEGO.  The below table lists those boards tested and confirmed as 
 | CPU |	TK2 | Working |
 | CPU |	Pistorm | Working |
 | CPU |	Pistorm 2k | Working |
+| Bridgeboard |	Commodore A2286 | Working |
+| Bridgeboard |	Commodore A2086 | Working |
 
 
 If you can add to this table please get in touch!
@@ -98,6 +106,8 @@ If you can add to this table please get in touch!
 ## Case
 
 At present there is no full case but there is a base that will hold either the 3 or 5 slot version of Diego level with the side car slot of your A500.  I'm not great at designing these things so if you want to help please get in touch.  STL files are in the BASE folder.  
+
+With thanks to Maikiro on Discord we now had a proper base for the 5 slot version.  He has kindly created 3 version of this to suit positioning of your ATX power connector.  STLs for these are provided in the BASE/Maikiro folder.
 
 
 
