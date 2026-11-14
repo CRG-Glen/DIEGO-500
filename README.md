@@ -1,7 +1,7 @@
 # DIEGO PROJECT
 
-Turn your A500 into an A2000 with this sidecar backplane
-CHECKMATE VERSION NOT YET TESTED - DO NOT BUILD
+Turn your A500 or Checkmate A1500 into an A2000 with this sidecar backplane
+
 
 ![PCB](/IMAGES/5-SLOT-3D.png)
 
@@ -17,7 +17,7 @@ DIEGO is also intended to power your A500 via the passthrough 4 pin connector ad
 
 ## Ordering
 
-There are currently 3 versions of DIEGO, a side car 5 slot version, a side car 3 slot version and a version for installation within a Checkmate case.  Please note that at present both the 3 slot and checkmate versions have not been tested so build at your own risk.  Checkmate version is currently in testing, I do not recommend building until it's confirmed working and ready.  
+There are currently 3 versions of DIEGO, a side car 5 slot version, a side car 3 slot version and a version for installation within a Checkmate case.  Please note that at present both the 3 slot version has not been tested so build at your own risk.  The Checkmate version has been tested with my collection of Zorro 2 cards and works fine but is yet to be tested with DMA capable cards, I've no reason to think it won't work, it's just not as yet tested.  
 
 Gerber, BOM and CPL files are provided for each in the JLCPCB folder.  
 
