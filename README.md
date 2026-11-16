@@ -16,7 +16,7 @@ DIEGO is also intended to power your A500 via the passthrough 4 pin connector ad
 
 ## Ordering
 
-There are currently 3 versions of DIEGO, a side car 5 slot version, a side car 3 slot version and a version for installation within a Checkmate case.  Please note that at present both the 3 slot version has not been tested so build at your own risk.  The Checkmate version has been tested with my collection of Zorro 2 cards and works fine but is yet to be tested with DMA capable cards, I've no reason to think it won't work, it's just not as yet tested.  
+There are currently 3 versions of DIEGO, a side car 5 slot version, a side car 3 slot version and a version for installation within a Checkmate case.  Please note that at present the 3 slot version has not been tested so build at your own risk.  The Checkmate version has been tested with my collection of Zorro 2 cards and works fine but is yet to be tested with DMA capable cards, I've no reason to think it won't work, it's just not as yet tested.  
 
 Gerber, BOM and CPL files are provided for each in the JLCPCB folder.  
 
@@ -42,7 +42,7 @@ FURTHER NOTE: You MUST use LS and ALS logic as per the BOM.  DIEGO was originall
 
 For the 86pin slot to the A500 on the side car version you will need to bend the pins in to meet the pads on DIEGO.  
 
-For programming the CPLD, the required JED file is available in the CPLD folder or you may get it from LIV2s GitHub.  I use a Raspberry PI to programme CPLDs as per LIV2s guide but use whatever method you're comfortable with.  Just remember if using a PI and if powering 3.3v from the PI, disconnect all other power supplies from DIEGO 500!
+For programming the CPLD, the required JED file is available in the CPLD folder or you may get it from LIV2s GitHub.  I use a Raspberry PI to programme CPLDs as per LIV2s guide but use whatever method you're comfortable with.  Just remember if using a PI and if powering 3.3v from the PI, disconnect all other power supplies from DIEGO!
 
 
 
@@ -56,7 +56,7 @@ For the most part DIEGO is simply plug and play but there are a few things to ke
 
 Side car version only
 -  If you're using a true A2000 CPU card in the COPROCESSOR slot (like the N2630) simply insert the card and Bluster will tristate the internal A500 CPU. (this is achieved by Bluster monitoring _BOSS and when asserted, Bluster asserts _BR to the internal CPU)  
-- If you are using an A500 type accelerator in the COPROCESSOR slot such as TF536 or a PISTORM (including PISTORM 2000), you MUST open the A500 and remove the internal CPU.  Even if you manually assert _BOSS, the E clocks will clash and it won't work.  There is NO fix for this!  A2000 accelerators work as they monitor E and sync to it or generate it as necessary.  
+- If you're using an A500 type accelerator in the COPROCESSOR slot such as TF536 or a PISTORM (including PISTORM 2000), you MUST open the A500 and remove the internal CPU.  Even if you manually assert _BOSS, the E clocks will clash and it won't work.  There is NO fix for this!  A2000 accelerators work as they monitor E and sync to it or generate it as necessary.  
 
 Checkmate version only
 - If you're using an accelerator in the A500s CPU socket you may need to connect its config out to the config in pin on DIEGO.  If you get a yellow screen or crash on boot this is the likely cause.  
@@ -133,7 +133,7 @@ This project represents countless hours of work by not just me but LIV2 and ever
 While I cannot put any direct stipulations into this I would ask that it should only be built and sold at cost plus time.  
 
 If you plan on forking or using this as the basis for any other works you must comply with the following as per the terms of the license attributed to this project.
-1. All attributions and credits as presented within this github and on the DIEGO 500 PCB must be maintained and carried through.
+1. All attributions and credits as presented within this github and on the DIEGO PCBs must be maintained and carried through.
 2. Any derivative of this project must be also be released open source.
 
 If you are doing a build of these please consider a £1 donation per board to my kofi - https://ko-fi.com/crg_glen.  I'm at least £500 into this project so any support to recoup this is appreicated.  
