@@ -15314,6 +15314,12 @@
 		(uuid "033226a0-dcd6-472a-9380-80eac99d2317")
 	)
 	(junction
+		(at 496.57 505.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03833255-a49f-438c-b314-ba01d60d6127")
+	)
+	(junction
 		(at 361.95 474.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16562,6 +16568,12 @@
 		(uuid "51fad140-afaa-47ae-ad27-73b7a2b17549")
 	)
 	(junction
+		(at 309.88 419.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "523cf597-b062-46c0-a408-96753568dbea")
+	)
+	(junction
 		(at 260.35 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17574,6 +17586,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91bdd3e0-2e36-4487-bc90-6cd3ec7e6311")
+	)
+	(junction
+		(at 143.51 327.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91c1af7d-8aff-4149-b8cf-00fb6b3cb88d")
 	)
 	(junction
 		(at 356.87 549.91)
@@ -21801,16 +21819,6 @@
 		)
 		(uuid "03b5323e-b899-4c2b-a996-cb75465c1425")
 	)
-	(wire
-		(pts
-			(xy 142.24 327.66) (xy 154.94 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03c3caaa-8aa4-4f54-a7dc-e1a93aca70ed")
-	)
 	(bus
 		(pts
 			(xy 195.58 462.28) (xy 195.58 464.82)
@@ -21950,6 +21958,16 @@
 			(type default)
 		)
 		(uuid "05f61f92-0a86-4c5c-8f24-f54dee6aca68")
+	)
+	(wire
+		(pts
+			(xy 143.51 327.66) (xy 142.24 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "062009ca-fc05-4ec2-a90c-a968dbf829bb")
 	)
 	(wire
 		(pts
@@ -23433,6 +23451,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 419.1) (xy 312.42 419.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8adec2-e178-4308-bcd3-d476f347ef87")
+	)
+	(wire
+		(pts
 			(xy 297.18 454.66) (xy 302.26 454.66)
 		)
 		(stroke
@@ -24120,6 +24148,16 @@
 			(type default)
 		)
 		(uuid "25a59cf1-4c8c-4a17-a05d-8843853c2e34")
+	)
+	(wire
+		(pts
+			(xy 496.57 505.46) (xy 490.22 505.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25cfe580-d34a-45e4-9441-addf14d50ba6")
 	)
 	(wire
 		(pts
@@ -25873,7 +25911,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 322.58) (xy 142.24 327.66)
+			(xy 143.51 322.58) (xy 143.51 327.66)
 		)
 		(stroke
 			(width 0)
@@ -27620,6 +27658,16 @@
 			(type default)
 		)
 		(uuid "56250e2e-d498-42fc-9979-e17da359ddf5")
+	)
+	(wire
+		(pts
+			(xy 309.88 419.1) (xy 309.88 425.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5647e62e-42ac-41da-acc9-1d2f9e2b9cef")
 	)
 	(wire
 		(pts
@@ -29651,6 +29699,16 @@
 		)
 		(uuid "6f4e6b2b-92bd-4274-b60f-ee1ac9617b66")
 	)
+	(wire
+		(pts
+			(xy 309.88 425.45) (xy 312.42 425.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6b3e10-42d8-4fd2-8005-86af861f9817")
+	)
 	(bus
 		(pts
 			(xy 326.39 519.43) (xy 326.39 521.97)
@@ -31203,6 +31261,16 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 502.92) (xy 496.57 505.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c82be3-60b6-41c7-9408-08d2b82e6f6c")
+	)
+	(wire
+		(pts
 			(xy 118.11 472.44) (xy 93.98 472.44)
 		)
 		(stroke
@@ -32520,6 +32588,16 @@
 			(type default)
 		)
 		(uuid "9327e8b9-009b-4efb-9a92-e65903692e82")
+	)
+	(wire
+		(pts
+			(xy 317.5 419.1) (xy 320.04 419.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9331e280-5612-4c8c-afdf-658aac6aabb7")
 	)
 	(bus
 		(pts
@@ -35793,7 +35871,7 @@
 	)
 	(wire
 		(pts
-			(xy 516.89 505.46) (xy 511.81 505.46)
+			(xy 516.89 505.46) (xy 496.57 505.46)
 		)
 		(stroke
 			(width 0)
@@ -38033,6 +38111,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 327.66) (xy 154.94 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbba28b2-6615-47eb-88b5-32a07930f7b7")
+	)
+	(wire
+		(pts
 			(xy 143.51 80.01) (xy 161.29 80.01)
 		)
 		(stroke
@@ -39743,6 +39831,16 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 496.57) (xy 496.57 497.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eedbfa77-042a-451b-8b97-cc275f242b0b")
+	)
+	(wire
+		(pts
 			(xy 198.12 414.02) (xy 226.06 414.02)
 		)
 		(stroke
@@ -40190,6 +40288,16 @@
 			(type default)
 		)
 		(uuid "f4806908-e5e9-4439-8d72-88777149bb63")
+	)
+	(wire
+		(pts
+			(xy 317.5 425.45) (xy 320.04 425.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4921c54-5d5f-44c2-9069-b0e75937d13a")
 	)
 	(wire
 		(pts
@@ -44141,6 +44249,28 @@
 			)
 		)
 	)
+	(global_label "_INT2"
+		(shape bidirectional)
+		(at 320.04 419.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4730c071-fe3c-47fe-b603-9c7e0f2ec00b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 329.2165 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "_AS"
 		(shape bidirectional)
 		(at 276.86 513.08 0)
@@ -44319,7 +44449,7 @@
 	)
 	(global_label "DOE"
 		(shape output)
-		(at 511.81 505.46 180)
+		(at 490.22 505.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -44329,7 +44459,7 @@
 		)
 		(uuid "4e3e413b-1fc8-4cf7-9d8c-ee322ef10cfe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 505.0753 505.46 0)
+			(at 483.4853 505.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45285,6 +45415,28 @@
 			)
 		)
 	)
+	(global_label "_INT6"
+		(shape bidirectional)
+		(at 320.04 425.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "919b9bcd-e426-4b64-87c2-64f2bd4a93b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 329.2165 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CDAC"
 		(shape input)
 		(at 33.02 88.9 180)
@@ -46211,7 +46363,7 @@
 	)
 	(global_label "7mhz"
 		(shape output)
-		(at 142.24 322.58 90)
+		(at 143.51 322.58 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -46221,7 +46373,7 @@
 		)
 		(uuid "c685fb45-6a1c-4f37-aabc-12e30d6bff2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 314.5149 90)
+			(at 143.51 314.5149 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50243,6 +50395,148 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 496.57 496.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2adec421-baf7-4782-ba10-2119e138745e")
+		(property "Reference" "#PWR096"
+			(at 496.57 500.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 496.57 492.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 496.57 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 496.57 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 496.57 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00d4c3ca-55aa-4c4a-9969-6fe4c19f53b8")
+		)
+		(instances
+			(project "Diego 500 5 slot"
+				(path "/fe999955-224f-48f7-8cb4-1836b2d4eba6"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 314.96 425.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b8974d4-18a8-4b92-bacc-e2c8b155eac1")
+		(property "Reference" "R39"
+			(at 314.96 421.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 314.96 423.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 314.96 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 314.96 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17513"
+			(at 314.96 421.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7398a579-dc4c-4592-82c4-0cb90e962126")
+		)
+		(pin "1"
+			(uuid "6f55277b-0a74-49ba-98ef-d89948c44b56")
+		)
+		(instances
+			(project "Diego 500 5 slot"
+				(path "/fe999955-224f-48f7-8cb4-1836b2d4eba6"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 492.76 434.34 0)
 		(mirror y)
 		(unit 1)
@@ -51082,6 +51376,83 @@
 			(project "Diego 500 5 slot"
 				(path "/fe999955-224f-48f7-8cb4-1836b2d4eba6"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 496.57 500.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30c7224c-bd24-4f86-8746-06e90f86e621")
+		(property "Reference" "R40"
+			(at 492.506 500.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 494.538 500.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 496.57 500.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 496.57 500.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 496.57 500.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17513"
+			(at 492.506 500.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49648f23-1582-4ff1-a010-dcff6274656f")
+		)
+		(pin "1"
+			(uuid "7310a02d-0f96-4a8c-bd83-c3cecc221a8a")
+		)
+		(instances
+			(project "Diego 500 5 slot"
+				(path "/fe999955-224f-48f7-8cb4-1836b2d4eba6"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -55790,6 +56161,82 @@
 			(project "Diego 500 5 slot"
 				(path "/fe999955-224f-48f7-8cb4-1836b2d4eba6"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 314.96 419.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "615ac946-4a8e-4dec-96ce-11f671839351")
+		(property "Reference" "R38"
+			(at 314.96 415.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 314.96 417.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 314.96 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 314.96 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17513"
+			(at 314.96 415.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dcde62fd-1a85-4c76-a0ae-17bb3f367474")
+		)
+		(pin "1"
+			(uuid "137285fa-9ef6-4b4a-83fc-a1bb7a5e2ed4")
+		)
+		(instances
+			(project "Diego 500 5 slot"
+				(path "/fe999955-224f-48f7-8cb4-1836b2d4eba6"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -67299,6 +67746,71 @@
 			(project "Diego 500 5 slot"
 				(path "/fe999955-224f-48f7-8cb4-1836b2d4eba6"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 309.88 419.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f43d4abf-47c4-4864-9e47-56e48f986359")
+		(property "Reference" "#PWR095"
+			(at 309.88 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 309.88 414.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 309.88 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7830a74-df47-42f6-8d2e-9ff460f57fe1")
+		)
+		(instances
+			(project "Diego 500 5 slot"
+				(path "/fe999955-224f-48f7-8cb4-1836b2d4eba6"
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
