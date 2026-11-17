@@ -2,8 +2,8 @@
 
 Turn your A500 or Checkmate A1500 into an A2000 with this sidecar backplane.
 
-![PCB](/IMAGES/5-SLOT-3D.png)
-
+![Sidecar 5 Slot Rev 1-2](/IMAGES/5-SLOT-3D.png)
+![checkmate Rev 1-2](/IMAGES/Checkmate-3D.png)
 
 ## What's this?  
 
@@ -16,19 +16,22 @@ DIEGO is also intended to power your A500 via the passthrough 4 pin connector ad
 
 ## Ordering
 
-There are currently 3 versions of DIEGO, a side car 5 slot version, a side car 3 slot version and a version for installation within a Checkmate case.  Please note that at present the 3 slot version has not been tested so build at your own risk.  The Checkmate version has been tested with my collection of Zorro 2 cards and works fine but is yet to be tested with DMA capable cards, I've no reason to think it won't work, it's just not as yet tested.  
+There are currently 3 versions of DIEGO, a side car 5 slot version, a side car 3 slot version and a version for installation within a Checkmate case.  
 
 Gerber, BOM and CPL files are provided for each in the JLCPCB folder.  
 
-All passives on each version are located on the bottom side (with exception of ferrite bead on checkmate version).  All logic and electrolytic caps are located on the top side.  
+All passives on each version are located on the bottom side (with exception of ferrite bead on checkmate version and 5-SLOT-REV-1-2).  All logic and electrolytic caps are located on the top side.  
 
 Each version of DIEGO is a 4 layer board.  HASL finish is fine for this project, inner layers can be left 0.5oz.  
 
-All signals are routed on the top and bottom layers but there are some power traces on each internal layer along with solid grounds.  
+All signals are routed on the top and bottom layers but there are some power traces on each internal layer along with solid grounds. Checkmate version has some internal signal traces, this was unavoidable in the limited space available.  
 
 Due to the amount of passives I recommend having your PCB manufacturer fit the bottom side, you then as builder complete the top side.  
 
-While all components are available at JLC several top side parts are getting expensive!  
+NOTES: 
+1. At present the 3 slot version has not been tested so build at your own risk.
+2. The 5 slot side car now has 2 versions.  Rev1-1 is the last production version that has been well tested and verified working with boards as per the list below.  Rev-1-2 has been redesigned with a solid internal ground and 5V flood fills however as yet has not been tested.  It should work fine but if anyone builds it please let me know.
+3. The Checkmate version has been tested with my collection of Zorro 2 cards and works fine but is yet to be tested with DMA capable cards, I've no reason to think it won't work, it's just not as yet tested.  
 
 
 
@@ -64,8 +67,8 @@ Checkmate version only
 
 ## Testing and Results
 
-With thanks to GADGETUK, SPARX, CATHERS and ANDI@HBR we've been able to test and confirm that most boards 
-work fine in DIEGO.  The below table lists those boards tested and confirmed as working or not.
+With thanks to GADGETUK, SPARX, CATHERS, ANDI@HBR and Xanxi-Amiga we've been able to test and confirm that most boards 
+work fine in DIEGO.  The below table lists those boards tested and confirmed as working or not.  These have all been tested and verified on Sidecar 5SLOT-REV1-1
 
 
 | Card Type | Name | Status |
@@ -150,6 +153,8 @@ Bluster by LIV2
 Artwork by Brick Studios
 
 Testing by GadgetUK, Sparx, Cathers and Andi@HBR
+
+REV1-2 Redesign by Jimbro1000
 
 Thanks to Mikerochip for inspiration for the PSU switch, Neil from Retro4U for loaning his GVP for testing and Kazanoz for helping with the BOM
 
