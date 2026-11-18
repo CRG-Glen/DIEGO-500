@@ -543,12 +543,12 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.3,
+        "clearance": 0.25,
         "name": "-12",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.75,
+        "track_width": 0.65,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4
@@ -565,7 +565,7 @@
         "via_drill": 0.4
       },
       {
-        "clearance": 0.3,
+        "clearance": 0.2,
         "name": "5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
