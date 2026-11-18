@@ -546,7 +546,7 @@
         "clearance": 0.3,
         "name": "-12",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.75,
         "tuning_profile": "",
@@ -557,9 +557,20 @@
         "clearance": 0.3,
         "name": "-5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.3,
+        "name": "5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.75,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4
@@ -568,7 +579,7 @@
         "clearance": 0.2,
         "name": "Ground",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "tuning_profile": "",
@@ -580,7 +591,7 @@
         "clearance": 0.2,
         "name": "big power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "tuning_profile": "",
@@ -615,7 +626,7 @@
         "pattern": "-5V"
       },
       {
-        "netclass": "big power",
+        "netclass": "5V",
         "pattern": "+5V"
       }
     ]
